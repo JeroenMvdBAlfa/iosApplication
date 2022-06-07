@@ -26,10 +26,11 @@ function onDeviceReady() {
 
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
-
-    document.getElementById("submit").onclick = function() {myFunction()};
-    function myFunction()   {
-        var input = document.getElementById("input").value;
-        document.getElementById("result").innerHTML = input;
-    }
 }
+
+
+$(document).ready(function () {
+    $("#submit").click(function () {
+        $('#result').text($('#input').val());
+    });
+});
