@@ -28,9 +28,6 @@ function onDeviceReady() {
     document.getElementById('deviceready').classList.add('ready');
 }
 
-
-$(document).ready(function () {
-    $("#submit").click(function () {
-        $('#result').text($('#input').val());
-    });
+$("#submit").click(function() {
+   $('#result').text($('#input').val());
 });
