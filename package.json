@@ -24,6 +24,15 @@
     ]
   },
   "dependencies": {
-    "cordova": "^11.0.0"
-  }
+    "cordova": "^11.0.0",
+    "mysql": "^2.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeroenMvdBAlfa/iosApplication.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JeroenMvdBAlfa/iosApplication/issues"
+  },
+  "homepage": "https://github.com/JeroenMvdBAlfa/iosApplication#readme"
 }
