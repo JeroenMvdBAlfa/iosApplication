@@ -13,6 +13,7 @@
 }
 body {
     background-color: #222;
+    color: #fff;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -65,6 +66,7 @@ input[type="submit"]{
 }
 .forgotPassword a{
     display: block;
+    color: rgb(137, 225, 247);
     margin: 0.5em 0;
     padding: 0.2em 0;
 }
