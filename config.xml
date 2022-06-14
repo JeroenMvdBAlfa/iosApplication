@@ -20,6 +20,6 @@
         <splash src="./img/logo.png" target="SplashScreen"/>
         <splash src="./img/logo.png" target="SplashScreenPhone"/>
     </platform>
-    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="SplashScreenDelay" value="2000" />
     <preference name="SplashScreenBackgroundColor" value="black" />
 </widget>
