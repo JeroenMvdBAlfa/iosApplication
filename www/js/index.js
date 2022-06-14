@@ -35,8 +35,22 @@ $("#submit").click(function () {
 
 $('#loginSubmit').click(function() {
     alert('je hebt op de login knop gedrukt');
+    const email = $('#email').val();
+    console.log(email);
+    const password = $('#password').val();
+    console.log(password);
 })
 
 $('#registerSubmit').click(function() {
-    alert("je hebt op de registeer knop gedrukt")
+    alert("je hebt op de registeer knop gedrukt");
+    const email = $('#email').val();
+    console.log(email);
+    const username = $('#username').val();
+    console.log(username);
+    const birthday = $('#birthdate').val();
+    console.log(birthday);
+    const password = $('#password').val();
+    console.log(password);
+    const confirmpassword = $('#confirmpassword').val();
+    console.log(confirmpassword);
 })
