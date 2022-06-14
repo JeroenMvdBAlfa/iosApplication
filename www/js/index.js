@@ -28,6 +28,15 @@ function onDeviceReady() {
     document.getElementById('deviceready').classList.add('ready');
 }
 
+$('head').append('<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">');
 $("#submit").click(function () {
     $('#result').text($('#input').val());
 });
+
+$('#loginSubmit').click(function() {
+    alert('je hebt op de login knop gedrukt');
+})
+
+$('#registerSubmit').click(function() {
+    alert("je hebt op de registeer knop gedrukt")
+})
