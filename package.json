@@ -15,9 +15,7 @@
   "devDependencies": {
     "app": "^0.1.0",
     "cordova-browser": "^6.0.0",
-    "cordova-ios": "^6.2.0",
-    "cordova-plugin-datepicker": "^0.9.3",
-    "cordova-plugin-splashscreen": "^6.0.1"
+    "cordova-ios": "^6.2.0"
   },
   "cordova": {
     "platforms": [
@@ -25,8 +23,6 @@
       "ios"
     ],
     "plugins": {
-      "cordova-plugin-datepicker": {},
-      "cordova-plugin-splashscreen": {}
     }
   },
   "dependencies": {

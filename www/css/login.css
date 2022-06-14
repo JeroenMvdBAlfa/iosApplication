@@ -12,13 +12,12 @@
          url('../fonts/montserrat-v24-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 body {
-    background-color: #222;
+    background-color: #111;
     color: #fff;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 header {
-    background-color: #111;
     position: relative;
     width: 100%;
     height: 5em;
@@ -28,7 +27,7 @@ header {
 header img {
     height: 100%;
 }
-.app, form, .flex.center {
+.app, form, .flex.center, .splash {
     flex: auto;
     display: flex;
     width:100%;
@@ -83,8 +82,49 @@ input[type="submit"], .flex.center a{
     width: 80%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 .app {
     min-height: calc(100vh - 5em);
     box-sizing: border-box;
+}
+.splash {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 100;
+    justify-content: center;
+    -webkit-animation: splash 2s ease;
+    opacity: 0;
+}
+.splash img{
+    width: 70%;
+    -webkit-animation: splashimg 2s ease;
+}
+@keyframes splashimg {
+    70% {
+        -webkit-transform: scale(1);
+    }
+    85% {
+        -webkit-transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform : scale(0) rotate(160deg);
+    }
+}
+
+@keyframes splash {
+    0% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
