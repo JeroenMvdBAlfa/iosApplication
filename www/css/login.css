@@ -97,6 +97,7 @@ input[type="submit"], .flex.center a{
     justify-content: center;
     -webkit-animation: splash 2s ease;
     opacity: 0;
+    pointer-events: none;
 }
 .splash img{
     width: 70%;
@@ -117,12 +118,11 @@ input[type="submit"], .flex.center a{
 @keyframes splash {
     0% {
         opacity: 1;
+        pointer-events: all;
     }
     85% {
         opacity: 1;
-    }
-    85% {
-        opacity: 1;
+        pointer-events: all;
     }
     100% {
         opacity: 0;
