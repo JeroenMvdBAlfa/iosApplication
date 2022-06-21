@@ -34,7 +34,6 @@ $("#submit").click(function () {
 });
 
 $('#loginSubmit').click(function() {
-    alert('je hebt op de login knop gedrukt');
     const email = $('#email').val();
     console.log(email);
     const password = $('#password').val();
@@ -42,7 +41,6 @@ $('#loginSubmit').click(function() {
 })
 
 $('#registerSubmit').click(function() {
-    alert("je hebt op de registeer knop gedrukt");
     const email = $('#email').val();
     console.log(email);
     const username = $('#username').val();
