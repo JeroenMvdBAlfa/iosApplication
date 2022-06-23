@@ -49,6 +49,10 @@ input {
     font-family: 'Montserrat', sans-serif;
     color: #000;
 }
+input:focus { 
+    border: none !important;
+    outline: none !important;
+}
 input[type="submit"], .flex.center a{
     background: linear-gradient(to right, #ffbd1f, #ffd46d);
     text-shadow: 0 0 10px #000;
@@ -96,12 +100,14 @@ input[type="submit"], .flex.center a{
     z-index: 100;
     justify-content: center;
     -webkit-animation: splash 2s ease;
+    animation: splash 2s ease;
     opacity: 0;
     pointer-events: none;
 }
 .splash img{
     width: 70%;
     -webkit-animation: splashimg 2s ease;
+    animation: splashimg 2s ease;
 }
 @keyframes splashimg {
     70% {

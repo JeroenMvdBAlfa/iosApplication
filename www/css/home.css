@@ -1,0 +1,46 @@
+section.birthdayperson {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+section.birthdayperson img {
+    width: 80%;
+    border-radius: 25px;
+}
+
+.felicitation div {
+    width: 80%;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px rgb(153, 153, 153);
+}
+
+.felicitation button {
+    background: none !important;
+    border: none !important;
+}
+.felicitation img{
+    height: auto;
+    width: 60% !important;
+}
+.felicitation .textarea {
+    background: none !important;
+    border-radius: 0 !important;
+    border: none !important;
+    color: #fff;
+    width: 80%;
+    text-align: start !important;
+    padding-top: .3em;
+}
+.textarea:focus { 
+    border: none !important;
+    outline: none !important;
+}
+header{
+    position: fixed;
+    background-color: #111;
+}
