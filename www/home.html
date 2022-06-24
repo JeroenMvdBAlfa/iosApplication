@@ -14,7 +14,9 @@
 </head>
 <body>
     <header>
-        <img src="./img/logo.svg" alt="">
+        <a class="addfriend" type="button"><img src="./img/icons/addfriendicon.png" alt="" ></a>
+        <img src="./img/logonoir.svg" alt="">
+        <a class="profile" type="button"><img src="./img/profilepictureplaceholder.png" alt="" ></a>
     </header>
     <div class="app">
         <section class="birthdayperson">
@@ -23,13 +25,15 @@
             <form class="felicitation" action="">
                 <div>
                     <span class="textarea" role="textbox" contenteditable></span>
-                    <button class="send" type="button"><img src="./img/icons/sendicon.png" alt="" ></button>
+                    <div class="buttons">
+                        <button class="send" id="send" type="button"><img src="./img/icons/sendicon.png" alt="" ></button>
+                        <button class="chat" type="button"><img src="./img/icons/chaticon.png" alt="" ></button>
+                    </div>
                 </div>
             </form>
         </section>
     </div>
 <script src="js/jquery.js" type="text/javascript"></script>
-<script src="js/js-confetti.min.js" type="module"></script>
 <!-- <script src="js/confetti.js" type="module"></script> -->
 <script src="cordova.js"></script>
 <script src="js/database.js"></script>
