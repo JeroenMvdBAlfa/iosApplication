@@ -58,22 +58,28 @@ button {
 header{
     position: fixed;
     background: linear-gradient(to bottom right, #ffbd1f,  #ffe45b);
-    display: -webkit-box; 
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex; 
-    display: flex;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
 }
 
 header a img{
     border-radius: 100%;
     transform: scale(0.65);
+    width: 4.5em;
     border: solid 2px black;
+    margin-top:.25em;
     box-sizing: border-box;
 }
 header a.addfriend img{
-    transform: scale(0.6);
+    transform: scale(0.62);
     border: none;
+    margin-top:.3em;
+}
+
+header a.addfriend{
+    position: absolute;
+    left: 1em;
+}
+
+header a.profile{
+    position: absolute;
+    right: 1em;
 }
