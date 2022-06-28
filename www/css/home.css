@@ -58,8 +58,13 @@ button {
 header{
     position: fixed;
     background: linear-gradient(to bottom right, #ffbd1f,  #ffe45b);
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
     display: flex;
     justify-content: space-between;
+    -webkit-justify-content: space-between;
 }
 
 header a img{
