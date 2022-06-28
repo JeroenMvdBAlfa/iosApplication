@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 route::get('/array', [\App\Http\Controllers\ArrayController::class, 'json']);
 route::get('/ajax', [\App\Http\Controllers\AjaxController::class, 'show']);
+route::get('/db/read', [\App\Http\Controllers\DbController::class, 'read']);
+route::get('/stud', [\App\Http\Controllers\StudViewController::class, "index"]);

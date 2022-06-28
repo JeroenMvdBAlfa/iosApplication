@@ -30,4 +30,3 @@ node_modules/
 /platforms/browser/browser.json
 /platforms/browser/config.xml
 .idea
-www/js/database.js
