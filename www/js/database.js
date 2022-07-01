@@ -8,6 +8,9 @@ $.get('http://127.0.0.1:8000/stud', function (data) {
     }
     var number = propertyValues.length;
     var random = Math.floor(Math.random() * number)
-    $('#here').html(propertyValues[0]['name']);
-    $('#here2').html(propertyValues[1]['name']);
+    for (var i = 0; i < propertyValues.length; i++) {
+        $('#here').append(propertyValues[i]['name'] + "<br>")
+    }
+    // $('#here').html(propertyValues[0]['name']);
+    // $('#here2').html(propertyValues[1]['name']);
 });
